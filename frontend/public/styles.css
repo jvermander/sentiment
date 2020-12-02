@@ -1,0 +1,69 @@
+#background {
+  background-color: rgb(50,50,50);
+  height: 100vh;
+  width: 100vw; 
+  display: flex;
+}
+
+#panel {
+  height: 65%;
+  width: 25%;
+  text-align: center;
+  border-radius: 0.5em;
+  box-shadow: 0 1.0em 1.5em 0 rgba(0, 0, 0, 0.5), 0 0.5em 2em 0 rgba(0, 0, 0, 0.4);
+  background-color: rgba(25,25,25);
+}
+
+#title {
+  padding: 5%;
+  font-family: neon;
+  font-size: 2em;
+  color: cyan;
+}
+
+#text {
+  height: 50%;
+  width: 80%;
+  display: inline-block;
+  resize: none;
+  background-color: rgb(40,40,40);
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  padding: 1em;
+  box-shadow: inset 2px 2px 2px 0px rgb(0, 0, 0);
+}
+
+#button {
+  margin-top: 2.5%;
+  color: cyan;
+  font-family: 'neon';
+  font-size: 1.5em;
+  box-shadow: 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.5);
+}
+
+#button:hover {
+  background-color: rgb(15, 15, 15);
+}
+
+#button:active {
+  background-color: rgb(0, 0, 0);
+}
+
+.sentiment {
+  margin-top: 7.5%;
+  font-family: 'ginch';
+  font-size: 3em;
+  
+}
+
+@font-face {
+  font-family: ginch;
+  src: url('assets/Ginchiest.ttf');
+}
+
+@font-face {
+  font-family: neon;
+  src: url('assets/Neon.ttf')
+}
+
